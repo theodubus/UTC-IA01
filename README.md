@@ -1,55 +1,33 @@
 # UTC-IA01
-Ce dépôt contient les codes des TDs et des TPs de l'UV IA01 de l'Université de Technologie de Compiègne.
 
-## 🗂️ - Arborescence du projet
+Intelligence artificielle et représentation des connaissances — mes TD et TP de l'UV **IA01** de l'UTC, en Common Lisp. Chaque dossier embarque son sujet en PDF.
 
-. \
-├── 📄 [LICENSE](./LICENSE) \
-├── 📄 [README.md](./README.md) \
-├── 📁 [TD](./TD) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD1](./TD/TD1) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD2](./TD/TD2) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD3](./TD/TD3) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD4](./TD/TD4) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD5](./TD/TD5) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD6](./TD/TD6) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD7](./TD/TD7) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD8](./TD/TD8) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD9](./TD/TD9) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TD11](./TD/TD11) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 [TD12](./TD/TD12) \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-└── 📁 [TP](./TP) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TP1](./TP/TP1) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 [TP2](./TP/TP2) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 [TP3](./TP/TP3) \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...
+> UV suivie en parallèle de [sacha-sz](https://github.com/sacha-sz), dont la version des TP est ici : [Lisp-Exercices](https://github.com/sacha-sz/Lisp-Exercices).
 
+## Travaux pratiques
 
-## 👨‍💻 - Langage utilisé
+| | Au programme |
+|---|---|
+| **[TP1](TP/TP1)** | Prise en main de Common Lisp : manipulation récursive de listes, base de données interrogeable — avec [rapport](TP/TP1/Rapport_IA01_TP1.pdf) |
+| **[TP2](TP/TP2)** | Jeu de Nim : exploration de l'arbre de jeu et minimax — le générateur d'arbres [`graphe.py`](TP/TP2/graphe.py) a ensuite donné [nim-tree-drawer](https://github.com/theodubus/nim-tree-drawer) — avec [rapport](TP/TP2/rapport.pdf) |
+| **[TP3](TP/TP3)** | Système expert : moteur d'inférence sur une base de règles |
 
-- [CommonLisp](https://fr.wikipedia.org/wiki/Common_Lisp)
+## Travaux dirigés
 
-## 📝 - Licence
+| | Au programme |
+|---|---|
+| **[TD1](TD/TD1)** | Bases du langage : évaluation, `quote`, variables |
+| **[TD2](TD/TD2)** | Dérivation symbolique d'expressions |
+| **[TD3](TD/TD3)** | Parcours et transformations de listes |
+| **[TD4](TD/TD4)** | Représentation d'un labyrinthe |
+| **[TD5](TD/TD5)** | Bases de règles et chaînage |
+| **[TD6](TD/TD6)** | Construction et parcours de graphes |
+| **[TD7](TD/TD7)** | Recherche de chemin dans un labyrinthe |
+| **[TD8](TD/TD8)** | Représentation par frames : concepts et valeurs |
+| **[TD9](TD/TD9)** | Frames et objets : classes, relations, héritage |
+| **[TD11](TD/TD11)** | Ontologies et web sémantique : OWL et requêtes |
+| **[TD12](TD/TD12)** | Apprentissage : un perceptron qui reconnaît des chiffres |
 
-[MIT](LICENSE)
+## Licence
 
-## 📔 - Auteurs et contributeurs
-
--  **[theodubus](https://github.com/theodubus/)** - Tous les TD et TP
--   **[sacha-sz](https://github.com/sacha-sz/)** - Collaboration sur les TP
-
-## 📑 - Références
-- **Lien moodle vers le cours** : [UTC-IA01](https://moodle.utc.fr/enrol/index.php?id=303)
+[MIT](LICENSE) — [theodubus](https://github.com/theodubus/)
